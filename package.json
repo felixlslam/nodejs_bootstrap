@@ -1,0 +1,22 @@
+{
+    "name": "New Project",
+    "version": "1.0.0",
+    "description": "Give a Description here",
+    "main": "src/index.js",
+    "scripts": {
+        "format": "npx prettier --write **/package.json *.js src/**/*.js && npx eslint --fix src/**",
+        "start": "node src/index.js",
+        "test": "echo 'No Test Defined'",
+        "update": "npx ncu -u && npm install"
+    },
+    "keywords": [],
+    "devDependencies": {
+        "eslint": "^7.20.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^7.2.0",
+        "npm-check-updates": "^11.1.4",
+        "prettier": "^2.2.1"
+    },
+    "author": "Felix L S Lam",
+    "license": "ISC"
+}
