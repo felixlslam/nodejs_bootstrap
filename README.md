@@ -1,3 +1,10 @@
+# What is this ? 
+This is a simple NodeJS program template that
+* Creates an Express webserver
+* Includes common eslint and prettier configurations
+
+That's it. 
+
 # How to use ?
 
 1. After cloning this repository, run the following commands

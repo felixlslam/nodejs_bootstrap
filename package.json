@@ -18,5 +18,10 @@
         "prettier": "^2.2.1"
     },
     "author": "Felix L S Lam",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "helmet": "^4.4.1",
+        "morgan": "^1.10.0"
+    }
 }
